@@ -1,0 +1,46 @@
+#main {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+
+}
+
+#sticky {
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+
+.inner{
+ display: flex;
+ flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: 20px;
+
+}
+#title{
+    height: 30px;
+}
+.dicbottom{
+    display: flex;
+    flex-direction: row;
+}
+.dicbottom button{
+    margin-right: 20px;
+} 
+#right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+#sticky button{
+    padding: 5px;
+    width: 50px;
+    /* color:white; */
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    background: linear-gradient(45deg,#ff0000,#ff7300,#fffb00,#48ff00,#00ffd5,#002bff,#7a00ff,#ff00c8,#ff0000);
+}
